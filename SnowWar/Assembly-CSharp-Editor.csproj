@@ -61,8 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Environment\Editor\LPWInspector.cs" />
-    <Compile Include="Assets\Environment\Editor\LPWShaderGUI.cs" />
     <Compile Include="Assets\Opsive\UltimateCharacterController\Editor\Controls\FlatTreeView.cs" />
     <Compile Include="Assets\Opsive\UltimateCharacterController\Editor\Inspectors\Audio\AudioClipSetInspector.cs" />
     <Compile Include="Assets\Opsive\UltimateCharacterController\Editor\Inspectors\Camera\CameraControllerInspector.cs" />

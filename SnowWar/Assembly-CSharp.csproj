@@ -61,15 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Environment\Scripts\FlickerLight.cs" />
-    <Compile Include="Assets\Environment\Scripts\LowPolyWaterScript.cs" />
-    <Compile Include="Assets\Environment\Scripts\src\LPWDepthEffect.cs" />
-    <Compile Include="Assets\Environment\Scripts\src\LPWDisplace.cs" />
-    <Compile Include="Assets\Environment\Scripts\src\LPWHiddenProps.cs" />
-    <Compile Include="Assets\Environment\Scripts\src\LPWNoise.cs" />
-    <Compile Include="Assets\Environment\Scripts\src\LPWNormalSolver.cs" />
-    <Compile Include="Assets\Environment\Scripts\src\LPWReflection.cs" />
-    <Compile Include="Assets\Environment\Scripts\src\LPWWaterChunk.cs" />
     <Compile Include="Assets\Opsive\UltimateCharacterController\Scripts\Audio\AudioClipSet.cs" />
     <Compile Include="Assets\Opsive\UltimateCharacterController\Scripts\Audio\AudioManager.cs" />
     <Compile Include="Assets\Opsive\UltimateCharacterController\Scripts\Camera\AimAssist.cs" />
@@ -302,19 +293,8 @@
     <Compile Include="Assets\Opsive\UltimateCharacterController\ThirdPersonController\Scripts\Items\ThirdPersonThrowableItemProperties.cs" />
     <Compile Include="Assets\Opsive\UltimateCharacterController\ThirdPersonController\Scripts\Items\ThirdPersonWeaponProperties.cs" />
     <Compile Include="Assets\Opsive\UltimateCharacterController\ThirdPersonController\Scripts\StateSystem\AOTLinker.cs" />
-    <None Include="Assets\Environment\Shaders\LPWStandard.cginc" />
-    <None Include="Assets\Environment\Shaders\LPWNoise.cginc" />
-    <None Include="Assets\Environment\Shaders\LPWLighting.cginc" />
-    <None Include="Assets\Environment\Shaders\LPWRipples.cginc" />
-    <None Include="Assets\Environment\Shaders\LPWRenderDepth.shader" />
-    <None Include="Assets\Environment\Shaders\LPWLite.cginc" />
-    <None Include="Assets\Environment\Shaders\LPWReflection.cginc" />
-    <None Include="Assets\Environment\Shaders\LPWShoreBlend.cginc" />
-    <None Include="Assets\Environment\Shaders\LowPolyWaterLite.shader" />
+    <Compile Include="Assets\sunzhao\animation\Abilities\throw\Throw.cs" />
     <None Include="Assets\Opsive\UltimateCharacterController\Shaders\Overlay.shader" />
-    <None Include="Assets\Environment\Shaders\LowPolyWaterAdvanced.shader" />
-    <None Include="Assets\Environment\Shaders\LPWCompatibility.cginc" />
-    <None Include="Assets\Environment\Shaders\LPWWaves.cginc" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/unity Coding/SnowWarDemo/SnowWar/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
